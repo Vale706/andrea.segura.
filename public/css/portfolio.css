@@ -1,0 +1,101 @@
+/*#006312 verde*/
+title {
+    font-family: Raleway;
+    font-style: italic;
+}
+
+.portada {
+    background: url(https://placehold.co/600x100) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+}
+
+.perfil {
+    background: url(../img/perfil.jpg) no-repeat;
+    background-size: auto;
+    border: 5px inset #006312;
+    border-radius: 90px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fondo-negro-transparente {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* Establecemos el contenedor como un contenedor flex */
+    justify-content: center;
+    /* Centramos el contenido horizontalmente */
+    align-items: center;
+    /* Centramos el contenido verticalmente */
+}
+
+small {
+    font-family: Raleway;
+}
+
+.boton {
+    background: #00b31e;
+    background-image: -webkit-linear-gradient(top, #08861d77, #028500);
+    background-image: -moz-linear-gradient(top, #08861d77, #028500);
+    background-image: -ms-linear-gradient(top, #08861d77, #028500);
+    background-image: -o-linear-gradient(top, #08861d77, #028500);
+    background-image: linear-gradient(to bottom, #08861d77, #028500);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #b4d4c7;
+    background-image: -webkit-linear-gradient(top, #b4d4c7, #5db380);
+    background-image: -moz-linear-gradient(top, #b4d4c7, #5db380);
+    background-image: -ms-linear-gradient(top, #b4d4c7, #5db380);
+    background-image: -o-linear-gradient(top, #b4d4c7, #5db380);
+    background-image: linear-gradient(to bottom, #b4d4c7, #5db380);
+    text-decoration: none;
+}
+
+.accordion-container {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    //*background-color: #f0f0f0;*/
+  }
+  
+  .redes-sociales {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redes-sociales li {
+    margin: 0 30px;
+  }
+
+  .icono-brillo{
+    transition: all 0.3s ease;
+  }
+  
+  .icono-brillo:hover {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+  }
+
+  .redes-sociales a {
+    color: #333;
+    font-size: 24px;
+  }
